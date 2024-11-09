@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani Registration Form</title>
+   <link rel="stylesheet" href="form.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="hero-img">  
+         <img src="images/for form page.png" alt="Image of Form Header"/>
+        </div>
+
+      
+      <div class="submit col-12 col-sm-12 col-md-12 col-lg-12">
+      <form action="#" class="form">
+       <div class="main">
+       <div class="input-box row" >
+           <label >Select Country</label>
+           <select class="form-select" aria-label="Default select example" id="Country" required>
+               <option selected>Select Country</option>
+               <option >Pakistan</option>
+               <option >Turkey</option>
+             </select>
+       </div>
+       <div class="input-box row" >
+           <label >Select City</label>
+           <select class="form-select" aria-label="Default select example" id="City" required>
+               <option selected>Select City</option>
+               <option >Karachi</option>
+               <option >Quetta</option>
+               <option >Istanbol</option>
+             </select>
+       </div>
+       <div class="input-box row" >
+           <label >Select course or event</label>
+           <select class="form-select" aria-label="Default select example" id="course" required>
+               <option selected>Select course or event</option>
+               <option >Mobile Repairing</option>
+               <option >CCTV Installation</option>
+               <option >Graphic Designing</option>
+               <option >Solar Installation</option>
+               <option >Laptop Repairing </option>
+               <option >RO Plant Technician</option>
+               <option >Flutter</option>
+               <option >Web and App developement</option>
+               <option >Motor Bike Repairing</option>
+             </select>
+       </div>
+       <div class="input-box row" >
+           <label >Select Your Computer proficiency</label>
+           <select class="form-select" aria-label="Default select example" id="proficiency" required>
+               <option selected>Select Your Computer proficiency</option>
+               <option >None</option>
+               <option >Beginner</option>
+               <option >Intermediate</option> 
+               <option >Advanced</option>
+             </select>
+       </div>
+       <div class="input-box row" >
+           <label >Full Name</label>
+           <input class="inp" type="text" placeholder="Full name" id="fullname" required>
+       </div>
+       <div class="input-box row" >
+           <label >Father Name</label>
+           <input class="inp" type="text" placeholder="Father name" id="Fathername" required>
+       </div>
+       <div class="input-box row" >
+           <label >Email</label>
+           <input class="inp" type="email" " placeholder="Email" id="email" required>
+       </div>
+       <div class="input-box  row" >
+           <label >Phone</label>
+           <input class="inp" type="number" placeholder="Phone" id="phone"required>
+       </div>
+       <div class="input-box  row" >
+           <label >CNIC</label>
+           <input class="inp" type="number" placeholder="CNIC" id="CNIC" required>
+       </div>
+       <div class="input-box  row   ">
+           <label >Father's CNIC(optional)</label>
+           <input class="inp" type="number" placeholder="Father's CNIC(optional)"  id ="fathercnic" required>
+       </div>
+       <div class="input-box row" >
+           <label >Date of Birth</label>
+           <input class="inp" type="date"   placeholder="Date of Birth" id="dob" required>
+       </div>
+       <div class="input-box row">
+           <label >Select Gender</label>
+           <select class="form-select" aria-label="Default select example"  id="Gender" required>
+               <option selected>Select Gender</option>
+               <option >Male</option>
+               <option >Female</option>
+               <option >Prefer not to say</option>
+             </select>
+       </div>
+   
+       <div class="input-box-100 row   ps:10px " >
+           <label >Address</label>
+           <input class="inp" row="text" placeholder="Address" id="Address" required>
+       </div>
+       <div class="input-box-100 row mb-3">
+           <label >Last Qualification</label>
+           <select class="form-select" aria-label="Default select example" id="Qualification" required>
+               <option selected>Last Qualification</option>
+               <option >Matric</option>
+               <option >Intermediate</option>
+               <option >Undergraduate</option>
+               <option >Graduate</option>
+               <option >Masters </option>
+               <option >PhD</option>
+               <option >O-Levels</option>
+               <option >Others</option>
+             </select>
+       </div>
+   </div>  
+       <div class="input-box-100 row">
+           <label >Do you have Laptop?</label>
+           <select class="form-select" aria-label="Default select example"  id="Laptop" required>
+               <option selected>Do you have Laptop?</option>
+               <option >Yes</option>
+               <option >No</option>
+             </select>
+       </div>
+      
+       <div class=" lines  ">
+       <ol>
+           <li>
+                <span>I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best of my knowledge. Further, I will abide by all the established and future regulations and policies of SWIT</span>
+           </li>
+           <li>
+               <span>I hereby accept the responsibilities of good conduct and guarantee that I will not be involved in any other activity, political or ethical, but learning during my stay in the program.</span>
+           </li>
+           <li>
+               <span>Defiance will render my admission canceled at any point in time.</span>
+           </li>
+           <li>
+               <span>Upon completion, of the course, I will complete the required project by SWIT.</span>
+           </li>
+           <li>
+               <span>It's mandatory for female students to wear abaya/hijab in the class</span>       
+           </li>
+       </ol>
+       </div>
+      </form>
+      <button class="btn" row="button" onclick="submit()">SUBMIT</button>
+   
+      </div>
+      
+   
+     
+      
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
+
